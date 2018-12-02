@@ -1,0 +1,41 @@
+{
+  "name": "porlery-scrap-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "dev": "DEBUG=porlery* nodemon .",
+    "beta": "NODE_ENV=beta DEBUG=porlery* nodemon .",
+    "production": "NODE_ENV=production DEBUG=porlery* nodemon .",
+    "dev:w": "set DEBUG=porlery* && nodemon .",
+    "beta:w": "set NODE_ENV=beta set DEBUG=porlery* && nodemon .",
+    "production:w": "set NODE_ENV=production set DEBUG=porlery* && nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "express-devices": "0.0.1",
+    "formidable": "^1.2.1",
+    "fs-promise": "^2.0.3",
+    "iconv-lite": "^0.4.24",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
+    "mongoose": "^5.2.6",
+    "nodemon": "^1.18.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
